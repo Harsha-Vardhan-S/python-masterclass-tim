@@ -93,3 +93,12 @@ print(("-" * 20) + "End of Topic" + ("-" * 20) + "\n")  # --------------------En
 # Parameter: Also called formal parameter.
 # This is something else we haven’t discussed yet, and we’ll learn about parameters when we start writing our own
 # functions.
+# ------------------------------------------------------------------------------------------------------------
+
+# Coding Exercise 1: Printing text
+
+# Write the code to print out the string: My hovercraft is full of eels
+
+print("My hovercraft is full of eels")      # My hovercraft is full of eels
+
+print(("-" * 20) + "End of Topic" + ("-" * 20) + "\n")  # --------------------End of Topic--------------------
