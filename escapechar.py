@@ -102,7 +102,7 @@ print(("-" * 20) + "End of Coding Exercise" + ("-" * 20) + "\n")
 # What if you want to include BACKSLASH Character inside your string?
 # Say you wanted to print the following string to console: C:\Users\timHarsha\notes.txt
 
-# print("C:\Users\timHarsha\notes.txt")
+print("C:\Users\timHarsha\notes.txt")
 # Because of the BACKSLASH Character, The IDE is interpreting the t in timHarsha as TabStop, n in notes.txt as LineFeed,
 # U in Users as accented characters inside the string. So we CAN'T just include BACKSLASH Character by just typing
 # inside the string.
