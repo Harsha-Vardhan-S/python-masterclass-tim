@@ -66,7 +66,6 @@ print("The end", "or is it?", "keep watching to learn more about Python", 3)
 # There are still a few more things to learn about the print() function, and we will be coming back to it in later
 # videos. For now, we’ve learned enough to be able to print from our programs to cheque that they produce the correct
 # results.
-print(("-" * 20) + "End of Topic" + ("-" * 20) + "\n")  # --------------------End of Topic--------------------
 
 # Now I’ve introduced quite a few jargon words there, so let’s finish this video with a slide to summarise them.
 
@@ -93,6 +92,9 @@ print(("-" * 20) + "End of Topic" + ("-" * 20) + "\n")  # --------------------En
 # Parameter: Also called formal parameter.
 # This is something else we haven’t discussed yet, and we’ll learn about parameters when we start writing our own
 # functions.
+
+print(("-" * 20) + "End of Topic" + ("-" * 20) + "\n")  # --------------------End of Topic--------------------
+
 # ------------------------------------------------------------------------------------------------------------
 
 # Coding Exercise 1: Printing text
