@@ -90,6 +90,6 @@ print(("-" * 20) + "End of Topic" + ("-" * 20) + "\n")  # --------------------En
 # 	Return value: The value that a function returns.
 # 	We haven’t talked about that yet, but it belongs in this slide to make the slide complete.
 
-# 	Parameter: Also called formal parameter.
-# 	This is something else we haven’t discussed yet, and we’ll learn about parameters when we start writing our own
+# 	Parameter: Also called formal parameter.
+# 	This is something else we haven’t discussed yet, and we’ll learn about parameters when we start writing our own
 # functions.
