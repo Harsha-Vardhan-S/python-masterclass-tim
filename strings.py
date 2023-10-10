@@ -35,7 +35,7 @@ name = "Harsha"
 print(greeting + name)      # HelloHarsha
 print()
 # If we want a space, we can add that too by delimiting space between quotes as a string
-print(greeting + ' ' + name)
+print(greeting + ' ' + name)    # Hello Harsha
 print()
 
 # Input funtion:
