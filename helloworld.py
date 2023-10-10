@@ -93,3 +93,7 @@ print(("-" * 20) + "End of Topic" + ("-" * 20) + "\n")  # --------------------En
 # 	Parameter: Also called formal parameter.
 # 	This is something else we haven’t discussed yet, and we’ll learn about parameters when we start writing our own
 # functions.
+
+# 	Parameter: Also called formal parameter.
+# 	This is something else we haven’t discussed yet, and we’ll learn about parameters when we start writing our own
+# functions.
