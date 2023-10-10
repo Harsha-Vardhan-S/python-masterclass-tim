@@ -1,38 +1,70 @@
-# There's no difference between single or double quotes in Python.
-# However, if you start a string with one type then you must finish it with the same type
-print("Today is a good day to learn Python")
-print('Python is fun')
+# 19. Strings in Python
 
-# If you need to include a single quote within the string then use double quote to enclose the string and vice-versa
-print("Python's string are easy to use")
-print('We can even include "quotes" in strings')
+# In this video, I want to discuss strings in a bit more detail, and also introduce the idea of storing values in
+# variables. We’ll cover variables in the video after next, but I’ll actually introduce them here.
 
-# String concatenation
-print("hello" + " world")
+# We’ll continue using our HelloWorld project, but let’s create a new Python file & name it strings.py for this video.
 
+# In Python, Strings can be enclosed in either “ ” (double quotes) or ‘ ’(single quotes), as I mentioned previously.
+# There's no difference between ‘ ’(single quotes) or “ ” (double quotes) in Python.
+# *** However, if you start a string with one type then you must finish it with the same type
+print("Today is a good day to learn Python")    # Today is a good day to learn Python
+print('Python is fun')      # Python is fun
+print()
+
+# If you need to include a ‘ ’(single quotes) within the string, then use “ ” (double quotes) to enclose the string,
+# and vice-versa
+print("Python's string are easy to use")            # Python's string are easy to use
+print('We can even include "quotes" in strings')    # We can even include "quotes" in strings
+print()
+
+# String Concatenation:
+# We can also Concatenate strings to make longer ones, using + (plus).
+print("hello" + " world")   # hello world
+
+# Code on line 22 joins the two words together to make the single string: hello world. So that’s called String
+# Concatenation.
+# *** Python isn’t going to perform addition on the 2 strings. It just joins them together or concatenates them.
+print()
+
+# We can also store the strings in variables, and then concatenation makes more sense.
 # Binding string values to variables
 greeting = "Hello"
 name = "Harsha"
 
-print(greeting + name)
-
+print(greeting + name)      # HelloHarsha
+print()
 # If we want a space, we can add that too by delimiting space between quotes as a string
-print(greeting + ' ' + name)
-
-# Using input function to take text input from the keyboard
-# Assignment is done using the equals symbol and anything on the right of the equals symbol is evaluated first
-# before the assignment happens. Here in our case input function is called first.
-# The value the input function returns upon the user input is assigned (bound) to the variable name
-name = input("Please enter your name ")
 print(greeting + ' ' + name)
 print()
 
-'''Few Rules for Variable Names:
-1.	Python variable names MUST begin with the letter, either upper or lowercase, or an _ underscore character.
-2.	They can contain letters, numbers, or underscore characters. However, they Can’t Begin With A Number.
-3.	Python variables are Case-Sensitive. So greeting with a lowercase g and Greeting with an uppercase G would refer to 
-two different variables.
-4.	Variables are created when they are first attached to a value, using the  = '''
+# Input funtion:
+# Our programmes can get input from the user. To do that, we call the input() function and then assign the value it
+# returns to a variable.
+# We can use input() function to take text input from the keyboard.
+# input() function displays the text provided to it and waits for the User to enter text using keyboard.
+# When you press enter, the text you typed is stored in the variable 'name'.
+# Assignment is done using the = (equals symbol) and anything on the right of the = (equals symbol) is evaluated first
+# before the assignment happens. Here in our case input() function is called first.
+# The value the input function returns upon the user input is assigned (bound) to the variable "name"
+
+# We can use Alt+4 combo to enter the name in the console or double-click the mouse in the output console
+name = input("Please enter your name ")     # Harsha
+print(greeting + ' ' + name)                # Hello Harsha
+print()
+
+# When you press enter, the text you typed is stored in the variable 'name'.
+
+print(("-" * 20) + "End of Topic" + ("-" * 20) + "\n")  # --------------------End of Topic--------------------
+
+# ------------------------------------------------------------------------------------------------------------
+
+# Few Rules for Variable Names:
+# 1.	Python variable names MUST begin with the letter, either upper or lowercase, or an _ underscore character.
+# 2.	They can contain letters, numbers, or underscore characters. However, they Can’t Begin With A Number.
+# 3.	Python variables are Case-Sensitive. So greeting with a lowercase g and Greeting with an uppercase G would refer
+#       to two different variables.
+# 4.	Variables are created when they are first attached to a value, using the  = (equal symbol)
 
 # We shall create another variable age and bind (attach) it to the value 24
 age = 24
