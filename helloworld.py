@@ -1,4 +1,5 @@
 # 17. Our First Python Program
+
 print('Hello, World!')      # Hello, World!
 # Although it’s very simple, our helloworld program does include a few important basics.
 # Firstly, we’ve used the Python function print()
@@ -9,7 +10,6 @@ print('Hello, World!')      # Hello, World!
 print(("-" * 20) + "End of Topic" + ("-" * 20) + "\n")  # --------------------End of Topic--------------------
 
 # --------------------------------------------------------------------------------
-
 # 18. Printing in Python
 
 print('Hello, World!')      # Hello, World!
@@ -98,7 +98,6 @@ print(("-" * 20) + "End of Topic" + ("-" * 20) + "\n")  # --------------------En
 # ------------------------------------------------------------------------------------------------------------
 
 # Coding Exercise 1: Printing text
-
 # Write the code to print out the string: My hovercraft is full of eels
 
 print("My hovercraft is full of eels")      # My hovercraft is full of eels
@@ -106,6 +105,7 @@ print("My hovercraft is full of eels")      # My hovercraft is full of eels
 print(("-" * 20) + "End of Topic" + ("-" * 20) + "\n")  # --------------------End of Topic--------------------
 
 # ------------------------------------------------------------------------------------------------------------
+
 # Coding Exercise 2: Printing the result of a calculation
 # Write a program to print the answer to the calculation 6 times 7
 print(6 * 7)        # 42
