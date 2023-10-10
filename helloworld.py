@@ -45,14 +45,14 @@ print()
 
 # ***When calling a function, you must have a () parenthesis after the function name.
 
-print("The end")
+print("The end")        # The end
 print()
 
 # Functions often take a specific number of arguments, but it’s also possible to write functions that can take a
 # variable number of arguments. The print() function that’s built into Python has been written that way. What that means
 # is we can print several things at once.
 
-# So let’s change the code on line 44 to print several strings and a number.
+# So let’s change the code on line 48 to print several strings and a number.
 print("The end", "or is it?", "keep watching to learn more about Python", 3)
 # Output: The end or is it? keep watching to learn more about Python 3
 
@@ -79,7 +79,7 @@ print(("-" * 20) + "End of Topic" + ("-" * 20) + "\n")  # --------------------En
 # In Python, all functions return a value.
 
 # Argument: A value is passed to a function in order to give it values to work with.
-# Rhere may be No Arguments, or there may be One Or More.
+# There may be No Arguments, or there may be One Or More.
 # Arguments appear in parentheses after the function name.
 # If there are no arguments, you still have to type in the left and right parentheses.
 
