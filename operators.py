@@ -101,6 +101,7 @@ print()
 # ***The values we used In range on line 98 MUST be integers.
 
 # So if we change the stopping point of the range on line 98 from 4 to a / b, we will get a TypeError when we run it.
+
 # for i in range(1, a / b):
 #     print(i)
 # Output:
