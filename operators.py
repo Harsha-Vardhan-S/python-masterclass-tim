@@ -104,6 +104,7 @@ print()
 
 # for i in range(1, a / b):
 #     print(i)
+
 # Output:
 # Traceback (most recent call last):
 #   File "C:\Users\coolh\OneDrive\Desktop\StudyMaterials\Python\python-masterclass-tim\HelloWorld\operators.py",
