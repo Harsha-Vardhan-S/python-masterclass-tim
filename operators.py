@@ -102,8 +102,8 @@ print()
 
 # So if we change the stopping point of the range on line 98 from 4 to a / b, we will get a TypeError when we run it.
 
-for i in range(1, a / b):
-    print(i)
+# for i in range(1, a / b):
+#     print(i)
 
 # Output:
 # Traceback (most recent call last):
