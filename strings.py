@@ -189,7 +189,7 @@ print(type(age))        # <class 'int'>
 print()
 
 # print(name + " is " + age + " years old")
-print()                 # TypeError: can only concatenate str (not "int") to str
+# print()                 # TypeError: can only concatenate str (not "int") to str
 
 # It gives a TypeError and line number of the error code. It also gives description for what the actual error was.
 # TypeError: can only concatenate str (not "int") to str
