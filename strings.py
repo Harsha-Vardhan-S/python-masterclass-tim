@@ -182,7 +182,7 @@ age_in_words = "2 years"
 # The variable name, age_in_words, is now more obvious as to what we are trying to do here.
 
 # ***But just because python allows you to reuse a variable name for a different purpose, that doesn’t mean it’s not
-# strongly typed. As an example, let’s say what happens if we try to add an int to the string.
+# strongly typed. As an example, let’s see what happens if we try to add an int to the string.
 age = 24
 print(age)              # 24
 print(type(age))        # <class 'int'>
