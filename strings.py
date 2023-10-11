@@ -209,3 +209,4 @@ print()                 # TypeError: can only concatenate str (not "int") to str
 
 print(name + " is " + age_in_words + " years old")
 print()
+print(("-" * 20) + "End of Topic" + ("-" * 20) + "\n")
