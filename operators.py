@@ -102,13 +102,13 @@ print()
 
 # So if we change the stopping point of the range on line 98 from 4 to a / b, we will get a TypeError when we run it.
 
-# for i in range(1, a / b):
-#     print(i)
+for i in range(1, a / b):
+    print(i)
 
 # Output:
 # Traceback (most recent call last):
 #   File "C:\Users\coolh\OneDrive\Desktop\StudyMaterials\Python\python-masterclass-tim\HelloWorld\operators.py",
-#   line 104, in <module>
+#   line 105, in <module>
 #     for i in range(1, a / b):
 #              ^^^^^^^^^^^^^^^
 # TypeError: 'float' object cannot be interpreted as an integer
@@ -149,7 +149,7 @@ print()
 # Well, that’s also not an expression. i is being bound to each of the values produced by range in turn.
 for i in range(1, a // b):
     print(i)
-# So if I write this code long handed, instead of using for loop, it should become more obvious that i on line 148 is
+# So if I write this code long handed, instead of using for loop, it should become more obvious that i on line 150 is
 # not an expression
 
 i = 1
