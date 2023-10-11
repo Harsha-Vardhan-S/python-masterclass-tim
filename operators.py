@@ -101,8 +101,8 @@ print()
 # ***The values we used In range on line 98 MUST be integers.
 
 # So if we change the stopping point of the range on line 98 from 4 to a / b, we will get a TypeError when we run it.
-for i in range(1, a / b):
-    print(i)
+# for i in range(1, a / b):
+#     print(i)
 # Output:
 # Traceback (most recent call last):
 #   File "C:\Users\coolh\OneDrive\Desktop\StudyMaterials\Python\python-masterclass-tim\HelloWorld\operators.py",
@@ -125,7 +125,8 @@ print(("-" * 20) + "End of Topic" + ("-" * 20) + "\n")
 
 # ----------------------------------------------------------------------------------------------------------------------
 
-# Expressions:
+# 26. Expressions
+
 # In Python, an expression is anything that can be calculated to return a value.
 # Lets's start by binding a couple of labels to two int values.
 a = 12
@@ -133,7 +134,7 @@ b = 3
 # a, b are not expressions. You can't have an expression on the left of an assignment.
 # The expression on the right of the equals sign is evaluated and the variable on the left is bound to that result.
 
-# Lets create some expressions to see the basic Python arithmetic operators
+# Let's create some expressions to see the basic Python arithmetic operators
 print(a + b)    # 15
 print(a - b)    # 9
 print(a * b)    # 36
@@ -142,12 +143,12 @@ print(a // b)   # 4 integer division, rounded down towards minus infinity
 print(a % b)    # 0 modulo: the remainder after integer division
 print()
 
-# What about i on line 58?
+# What about i on line 148?
 # Well, that’s also not an expression. i is being bound to each of the values produced by range in turn.
 for i in range(1, a // b):
     print(i)
-# So if I write this code long handed, instead of using for loop, it should become more obvious that i on line 58 is not
-# an expression
+# So if I write this code long handed, instead of using for loop, it should become more obvious that i on line 148 is
+# not an expression
 
 i = 1
 print(i)
@@ -156,10 +157,10 @@ print(i)
 i = 3
 print(i)
 
-# So that is exactly the same thing. But that would take six lines of code instead of 2 which I’ve got a lines 58, 59
+# So that is exactly the same thing. But that would take six lines of code instead of 2 which I’ve got a lines 148, 149
 # But when I run the programme we get the same three values printed out again.
 
-# So i on the lines 63, 65, 67 isn't an expression, then it should be clear that it’s not an expression on line 58
+# So i on the lines 153, 155, 157 isn't an expression, then it should be clear that it’s not an expression on line 148
 # either
 
 # 12 ... 1
@@ -183,7 +184,24 @@ print(i)
 # i (in print(i))... 1
 #
 # Total = 26
+print(("-" * 20) + "End of Topic" + ("-" * 20) + "\n")
 
+# ----------------------------------------------------------------------------------------------------------------------
+
+# Coding Exercise 4: Integer division
+
+# You have a shop selling buns for $2.40 each.  A customer comes in with $15, and would like to buy as many buns as
+# possible.
+# Complete the code to calculate how many buns the customer can afford.
+# Note: Your customer won't be happy if you try to sell them part of a bun.
+# Print only the result, any other text in the output will cause the checker to fail.
+bun_price = 2.40
+money = 15
+print(money // bun_price)       # 6.0
+
+print(("-" * 20) + "End of Coding Exercise" + ("-" * 20) + "\n")
+
+# ----------------------------------------------------------------------------------------------------------------------
 
 # 27. Operator precedence
 
@@ -191,24 +209,28 @@ a = 12
 b = 3
 
 # Operator Precedence is a fancy term for the Relative Importance given to each of the Operators. If they were all
-# equally important, we could just read the expression on line 13 from left to right, and we’d get the result 12.
+# equally important, we could just read the expression on line 214 from left to right, and we’d get the result 12.
 # A is 12 plus B, which is 3. This 15 / 3 is 5 – 4 These 1 * 12 = 12.
 print(a + b / 3 - 4 * 12)       # -35.0
 
 # However, multiplication & division have Higher Precedence than addition & subtraction. So those operations will be
-# performed first. Now, many programming languages work in the same way. This isn’t just a peculiarity of python.
+# performed first. Now, many programming languages work in the same way. This isn’t just a peculiarity of Python.
 # So b / 3 is 1.0. And 4 * 12 is 48. So the expression, therefore, is evaluated as 12 + 1.0 - 48 which is -35.0.
+print()
 
 # Now, if you want to make your expressions clear and unambiguous, you can use parentheses freely, even when python
 # doesn’t specifically require them. So along those lines, we could revise our example from line 107 instead of type as
 # follows:
 print(a + (b / 3) - (4 * 12))       # -35.0
 # In other words, both these expressions on lines 107, 116 evaluate to the same value.
+print()
 
 # Now, if we had intended the early expression to produce the result 12, we would write it in a different way
 print((((a + b) / 3) - 4) * 12)     # 12
+print()
 
 print(((a + b) / 3 - 4) * 12)       # 12
+print()
 
 # We could also use variables to hold the intermediate values if we wanted to
 c = a + b
@@ -217,7 +239,7 @@ e = d - 4
 print(e * 12)
 
 # So there will be times when it makes sense to break up an expression into smaller parts, as we’ve done here. I think
-# in this example, the code is harder to read and difficult to workout what’s going on compared to the previous
+# in this example, the code is harder to read and difficult to work out what’s going on compared to the previous
 # examples on line 48, 49, 50, 51, 52, 53 which are easy to read.
 print()
 
@@ -232,7 +254,12 @@ print()
 # Q) So what’s wrong with these acronyms?
 # Well, they all have the same problem of being ambiguous. Students sometimes interpret them as meaning that
 # Multiplication has higher precedence than division, and Addition has higher precedence than Subtraction.
-# That’s not the case. Multiplication and Division have equal precedence, Addition and Subtraction also have equal
+
+# ***That’s not the case. Multiplication and Division have equal precedence, Addition and Subtraction also have equal
 # precedence.
-# In an expression that mixes operations with equal precedence they are evaluated from left to right.
+
+# ***In an expression that mixes operations with equal precedence they are evaluated from left to right.
+
 print(a / (b * a) / b)      # 0.1111111111111111
+
+print(("-" * 20) + "End of Topic" + ("-" * 20) + "\n")
