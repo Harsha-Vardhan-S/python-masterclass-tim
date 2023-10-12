@@ -281,7 +281,7 @@ print()
 print(("-" * 20) + "End of Topic" + ("-" * 20) + "\n")
 # ------------------------------------------------
 # 32. Using a Step in a Slice
-
+print(("-" * 20) + "32. Using a Step in a Slice" + ("-" * 20) + "\n")
 # So far, we’ve only been providing 2 values to our Slices, the START and STOP values. But Slices can also take a STEP
 # value, which defaults to 1.
 # So let’s see some examples before we discuss the syntax more formally
@@ -290,7 +290,7 @@ print(("-" * 20) + "End of Topic" + ("-" * 20) + "\n")
 parrot = "Norwegian Blue"
 print(parrot[0:6:2])    # Nre
 print()
-# So the Slice on line 274 starts from Index 0 which is the capital N extracting all the characters Up To, But Not
+# So the Slice on line 291 is starting from Index 0 which is the capital N extracting all the characters Up To, But Not
 # Including Index 6 which is the i, in Steps of 2.
 
 print(parrot[0:6:3])    # Nw
@@ -327,21 +327,22 @@ print()
 # Now, this is the bit that I don’t want you to worry about. Think of it as a demonstration.
 # It’s all stuff that you’ll be learning about in later videos.
 
-number = "9,223;372:036 854,775;807"        # ,;: ,;
+number = "9,223;372:036 854,775;807"
 # So what I’m gonna do is start by binding a variable by name "seperators" to the variable "number"
 seperators = number[1::4]
-print(seperators)
+print(seperators)               # ,;: ,;
 print()
 
 # Now we can use the separators variable to split out the individual values. This is the interesting part
 values = "".join(char if char not in seperators else " " for char in number).split()
 print([int(val) for val in values])         # [9, 223, 372, 36, 854, 775, 807]
 print()
-# Now, I don’t expect that code on lines 320 and 321 to make sense. Again, I’m using it to demonstrate why extracting
+# Now, I don’t expect that code on lines 337 and 338 to make sense. Again, I’m using it to demonstrate why extracting
 # every third character from a string might be useful. As you work through the course, you’ll learn what this code is
 # doing, and you’ll be able to write code like that for yourself.
 
 # If we run this program, you can see the output is now showing us the 7 values that we’ve extracted from the string
-# that we bound to the “number” variable on line 313. I think that’s pretty impressive when you consider it’s only a few
+# that we bound to the “number” variable on line 330. I think that’s pretty impressive when you consider it’s only a few
 # lines of code. It’s very hard to come up with real-world examples when all we’ve covered so far in the course of
 # variables, int, and strings, but hopefully, that demonstration has put the slice into a useful context.
+print(("-" * 20) + "End of Topic" + ("-" * 20) + "\n")
