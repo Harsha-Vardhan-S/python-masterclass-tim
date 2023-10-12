@@ -242,7 +242,7 @@ letters = "abcdefghijklmnopqrstuvwxyz"
 print(("-" * 20) + "End of Topic" + ("-" * 20) + "\n")
 # -----------------------------------------------------
 # 31. Slicing with Negative Numbers
-
+print(("-" * 20) + "31. Slicing with Negative Numbers" + ("-" * 20) + "\n")
 # Let’s continue with the strings2 program.
 # ***The START, STOP and STEP values in a Slice can also be Negative.
 
@@ -250,29 +250,35 @@ print(("-" * 20) + "End of Topic" + ("-" * 20) + "\n")
 parrot = "Norwegian Blue"
 #         43210987654321    # -ve Index starts with -1 from left to right <--
 
-print(parrot[0:6]) # Norweg
+print(parrot[0:6])          # Norweg
 
 print(parrot[-4:2])
 # Now, if we run this, we’ll find that this actually doesn’t print out anything. So it doesn’t print the two characters
-# Starting -4 in from the end of the string. That’s because you can’t go backward from the Starting position.
+# starting at -4 from the end of the string. That’s because you can’t go backward from the Starting position.
 # So instead we should write it as follows
 
 print(parrot[-4:-2])        # Bl
 print()
-# Code on line 248 prints from Index -4 and that’s B, up to but not including the second to last character in the
+# Code on line 260 prints from Index -4 and that’s B, up to but not including the second to last character in the
 # string, which is u.
 
 print(parrot[-4:12])        # Bl
 print()
-# Code on line 253 also prints the same thing i.e Bl, but this time it’s interpreted as from Index -4 up to but not
-# including Index position 12.
+# Code on line 265 also prints the same thing i.e Bl, but this time it’s interpreted as from Index position -4 up to but
+# not including Index position 12.
 
 # There’s nothing tricky about Negative Slicing. They’re just counting from the End of the string instead of from
 # the beginning.
 
+#         01234567890123    # 14 Characters length
+parrot = "Norwegian Blue"
+#         43210987654321    # -ve Index starts with -1 from left to right <--
+
 print(parrot[-14:-8])       # Norweg
-print("End of Topic of Negative Slicing")
 print()
+
+# Make sure You go through and reproduce all the slices from the topic 30. Slicing using Negative Indices method.
+print(("-" * 20) + "End of Topic" + ("-" * 20) + "\n")
 # ------------------------------------------------
 # 32. Using a Step in a Slice
 
