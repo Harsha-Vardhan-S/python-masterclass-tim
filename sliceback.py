@@ -139,7 +139,7 @@ print(letters[0])           # A
 
 # Let's bind an Empty string to the variable, letters
 letters = ""
-# print(letters[0])
+print(letters[0])
 # Output:
 # File "C:\Users\coolh\OneDrive\Desktop\StudyMaterials\Python\python-masterclass-tim\HelloWorld\sliceback.py", line 138,
 # in <module>
