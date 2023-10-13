@@ -39,7 +39,7 @@ print("There are {0} days in {1}, {2}, {3}, {4}, {5}, {6} and {7}".format(31, "J
 # Output:
 # There are 31 days in Jan, Mar, May, Jul, Aug, Oct and Dec
 print()
-# > So I’ll split the code on line 35 over two lines, which is something you’ll see done a lot in Python. Long lines are
+# > So I’ll split the code on line 37 over two lines, which is something you’ll see done a lot in Python. Long lines are
 # actually frowned upon in the Python Style Guide, which we’ll talk more about later.
 # > For now, just know that Python allows you to split your lines of code
 
@@ -50,7 +50,7 @@ print("There are {0} days in {1}, {2}, {3}, {4}, {5}, {6} and {7}"
 print()
 # > So, the Replacement Fields are replaced by the values that appear in the .format() method call, with the first value
 # replacing {0}, the second replacing {1}, and so on. So, you can see that we’ve actually got a total of 8 Replacement
-# Fields defined on line 44, and each of those values are going to go into the respective number 0 through 7.
+# Fields defined on line 46, and each of those values are going to go into the respective number 0 through 7.
 # > We’ve got a total of 8 items in the list after the dot format(), and each of those are going into the Replacement
 # Field number 0 through 7 in our string.
 # > If we run the program now and compare the output at the bottom of the screen with the values that appear inside
@@ -81,7 +81,7 @@ print("Jan: {2}, Feb: {0}, Mar: {2}, Apr: {1}, May: {2}, Jun: {1}, Jul: {2}, Aug
 # Output: Jan: 31, Feb: 28, Mar: 31, Apr: 30, May: 31, Jun: 30, Jul: 31, Aug: 30, Sep: 30, Oct: 31, Nov: 30, Dec: 31
 print()
 # > If we run the program, and you can see now that wherever there’s a replacement field {0}, it’s replaced with the
-# first value in the list. 28. We’ve only got replacement field {0} once for February.
+# first value in the list, 28. We’ve only got replacement field {0} once for February.
 # > All the replacement field {1} are replaced with the 2nd value, which is 30 and the 3rd value 31 is used to replace
 # all the replacement field {2}.
 
