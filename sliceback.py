@@ -141,8 +141,8 @@ print(letters[0])           # A
 letters = ""
 print(letters[0])
 # Output:
-# File "C:\Users\coolh\OneDrive\Desktop\StudyMaterials\Python\python-masterclass-tim\HelloWorld\sliceback.py", line 138,
-# in <module>
+#   File "C:\Users\coolh\OneDrive\Desktop\StudyMaterials\Python\python-masterclass-tim\HelloWorld\sliceback.py",
+#   line 142, in <module>
 #     print(letters[0])
 #           ~~~~~~~^^^
 # IndexError: string index out of range
@@ -151,8 +151,8 @@ print(letters[0])
 
 print(letters[:1])
 print()
-# So looking at the code, the Slice on line 151, produces an Empty string instead of Crashing with an Index error.
-# So, the Python Idiom on line 148 is useful for getting the first item in a sequence, without your code crashing.
+# So looking at the code, the Slice on line 152, produces an Empty string instead of Crashing with an Index error.
+# So, the Python Idiom on line 152 is useful for getting the first item in a sequence, without your code crashing.
 # ***If the sequence is Empty, you will get an Empty sequence back, and that’s often what you’d want to happen.
 
 # That's the end of slices for now.
