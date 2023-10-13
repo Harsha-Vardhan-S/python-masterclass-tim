@@ -42,7 +42,7 @@ print()
 # > So I’ll split the code on line 37 over two lines, which is something you’ll see done a lot in Python. Long lines are
 # actually frowned upon in the Python Style Guide, which we’ll talk more about later.
 # > For now, just know that Python allows you to split your lines of code
-
+#
 print("There are {0} days in {1}, {2}, {3}, {4}, {5}, {6} and {7}"
       .format(31, "Jan", "Mar", "May", "Jul", "Aug", "Oct", "Dec"))
 #                   0     1      2      3      4      5      6      7   --> Index Numbers
