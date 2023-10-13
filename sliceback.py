@@ -130,7 +130,7 @@ print()
 # You can also use a Slice to get the first character
 print(letters[:1])          # A
 print()
-# The code on line 128 is particularly useful because it does not give an Error, even if the sequence is Empty.
+# The code on line 131 is particularly useful because it does not give an Error, even if the sequence is Empty.
 
 # It may though, be more natural to get the item at Index Position 0, and that works with a string.
 print(letters[0])           # A
@@ -147,10 +147,11 @@ print(letters[0])
 #           ~~~~~~~^^^
 # IndexError: string index out of range
 
+# As you can see, it generates an Index error when the string was Empty.
 
 print(letters[:1])
 print()
-# So looking at the code, the Slice on line 148, produces an Empty string instead of Crashing with an Index error.
+# So looking at the code, the Slice on line 151, produces an Empty string instead of Crashing with an Index error.
 # So, the Python Idiom on line 148 is useful for getting the first item in a sequence, without your code crashing.
 # ***If the sequence is Empty, you will get an Empty sequence back, and that’s often what you’d want to happen.
 
