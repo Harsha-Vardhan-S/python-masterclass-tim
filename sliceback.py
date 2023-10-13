@@ -135,7 +135,7 @@ print()
 # It may though, be more natural to get the item at Index Position 0, and that works with a string.
 print(letters[0])           # A
 
-# Q) Code on line 133 works, but what would happen if the string was Empty?
+# Q) Code on line 136 works, but what would happen if the string was Empty?
 
 # Let's bind an Empty string to the variable, letters
 letters = ""
