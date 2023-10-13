@@ -154,7 +154,7 @@ print()
 # So looking at the code, the Slice on line 152, produces an Empty string instead of Crashing with an Index error.
 # So, the Python Idiom on line 152 is useful for getting the first item in a sequence, without your code crashing.
 # ***If the sequence is Empty, you will get an Empty sequence back, and that’s often what you’d want to happen.
-#
+
 # That's the end of slices for now.
 
 print(("-" * 20) + "End of Topic" + ("-" * 20) + "\n")
