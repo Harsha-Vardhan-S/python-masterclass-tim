@@ -129,8 +129,8 @@ print()
 #   The > (Greater Than Symbol), Right Aligns;
 #   The ^ (Caret Symbol), Center Aligns;
 
-# 	Let’s center the last column to see what that looks like.
-# 	So instead of using the < (less than symbol) there, I’ll change that by using the ^ (caret symbol) instead.
+# > Let’s center the last column to see what that looks like.
+# > So instead of using the < (less than symbol) there, I’ll change that by using the ^ (caret symbol) instead.
 
 for i in range(1, 13):
     print("No. {0:2} squared is {1:<3} and cubed is {2:^4}".format(i, i ** 2, i ** 3))
