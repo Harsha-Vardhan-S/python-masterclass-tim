@@ -75,7 +75,6 @@ print()
 # So if we’ve run this program, we see that we get an TypeError.
 # The reason we’re getting the error is that Hello in double quotes, multiplied by 5 evaluates to a string, and then
 # there’s an attempt to add the numeric number 4 to it, and it Fails for that reason.
-print()
 
 # We can actually do two different things here.
 print("Hello " * (5 + 4))       # Hello Hello Hello Hello Hello Hello Hello Hello Hello
@@ -84,7 +83,7 @@ print()
 
 print("Hello " * 5 + "4")       # Hello Hello Hello Hello Hello 4
 print()
-# Line 83 should repeat the string Hello 5 times, and then append the string 4 to it.
+# Line 84 should repeat the string Hello 5 times, and then append the string 4 to it.
 
 # ***There’s also an operator to CHECK if one string is a substring of another.
 # To do that, we actually Check if one thing is in another.
