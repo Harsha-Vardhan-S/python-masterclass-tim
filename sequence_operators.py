@@ -79,7 +79,7 @@ print()
 # We can actually do two different things here.
 print("Hello " * (5 + 4))       # Hello Hello Hello Hello Hello Hello Hello Hello Hello
 print()
-# Because of the parenthesis, line 79 evaluates 5 + 4 to get 9. So it should then repeat the string Hello, 9 times.
+# Because of the parenthesis, line 80 evaluates 5 + 4 to get 9. So it should then repeat the string Hello, 9 times.
 
 print("Hello " * 5 + "4")       # Hello Hello Hello Hello Hello 4
 print()
